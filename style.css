@@ -59,7 +59,7 @@ header img {
 #navbar li{
     display: inline-block;
     transition: all;
-    transition-duration: 2s;
+    transition-duration: 1s;
     padding: 20px;
 }
 
@@ -174,11 +174,6 @@ hr{
 }
 
 
-
-
-
-
-
 /* font awesome */
 i{
     font-size: 1.25em;
@@ -187,4 +182,67 @@ i{
 footer{
     margin-top: 50px;
     text-align: center;
+}
+
+
+/* about us */
+
+
+/* form-section */
+#form-section{
+    margin: 100px 50px 50px 450px;
+}
+
+#form-section .input-type{
+    display: block;
+    margin: 30px;
+    width: 50%;
+    height: 30px;
+    border-radius: 30px;
+    transition: all;
+    transition-duration:1s;
+}
+
+#form-section .input-type:hover{
+    border-color: aquamarine;
+}
+
+#form-section #my-btn{
+    margin-left: 35px;
+    background: #fff;
+    color: #000;
+    border-radius: 30px;
+    transition: all;
+    transition-duration:1s;
+}
+
+#form-section #my-btn:hover{
+    background-color: aquamarine;
+    color: #fff;
+    border-color: #fff;
+    cursor: pointer;
+}
+
+
+/* table-section */
+#table-section{
+    margin-top: 40px;
+    margin-left: 450px;
+    margin-bottom: 100px;
+    width: 50%;
+}
+
+#table-section th,tr,td{
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+#table-section th:hover{
+    background-color: #EB4747;
+    color: #fff;
+}
+
+#table-section td:hover{
+    background-color: #EB4747;
+    color: #fff;
 }
